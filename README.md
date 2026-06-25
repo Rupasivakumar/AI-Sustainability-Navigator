@@ -27,48 +27,56 @@ Whether addressing **waste management**, **water conservation**, **energy effici
 🔹 Produce comprehensive sustainability reports
 
 ---
-
-User Enters Sustainability Issue
-                │
-                ▼
-       Issue Analyzer Agent
-                │
-                ▼
-   Categorization & Severity Detection
-                │
-                ▼
-          SDG Mapper Agent
-                │
-                ▼
-      SDG Goal Identification
-                │
-                ▼
-      RAG Knowledge Retriever
-                │
-                ▼
-  Sustainability Knowledge Fetching
-                │
-                ▼
-      Impact Assessment Agent
-                │
-                ▼
- Environmental & Social Impact Analysis
-                │
-                ▼
-        Action Planner Agent
-                │
-                ▼
- Sustainable Recommendations Generated
-                │
-                ▼
-      Sustainability Score Engine
-                │
-                ▼
-       PDF Report Generator
-                │
-                ▼
-      User Downloads Report
-
+┌─────────────────────────┐
+│ User Input Sustainability│
+│ Issue Description        │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ Analyzer Agent          │
+│ Category + Severity     │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ SDG Mapping Agent       │
+│ SDG Goal Identification │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ RAG Knowledge Retriever │
+│ Sustainability Insights │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ Impact Assessment Agent │
+│ Environmental Impact    │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ Action Planning Agent   │
+│ Recommendations         │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ Sustainability Scoring  │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ PDF Report Generation   │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│ User Dashboard Output   │
+│ + Download Report       │
+└─────────────────────────┘
 
 ## 📸 Application Screenshots
 

@@ -45,6 +45,47 @@ Users can describe environmental concerns such as waste accumulation, water leak
 
 ✅ Produces a sustainability-focused report
 
+User Enters Sustainability Issue
+                │
+                ▼
+       Issue Analyzer Agent
+                │
+                ▼
+   Categorization & Severity Detection
+                │
+                ▼
+          SDG Mapper Agent
+                │
+                ▼
+      SDG Goal Identification
+                │
+                ▼
+      RAG Knowledge Retriever
+                │
+                ▼
+  Sustainability Knowledge Fetching
+                │
+                ▼
+      Impact Assessment Agent
+                │
+                ▼
+ Environmental & Social Impact Analysis
+                │
+                ▼
+        Action Planner Agent
+                │
+                ▼
+ Sustainable Recommendations Generated
+                │
+                ▼
+      Sustainability Score Engine
+                │
+                ▼
+       PDF Report Generator
+                │
+                ▼
+      User Downloads Report
+
 
 ## 📸 Application Screenshots
 

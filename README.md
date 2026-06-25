@@ -27,42 +27,28 @@ Whether addressing **waste management**, **water conservation**, **energy effici
 🔹 Produce comprehensive sustainability reports
 
 ---
-# 🌍 AI Sustainability Navigator – Project Workflow
-
-```mermaid
-flowchart TD
-
-A[👤 User Enters Sustainability Issue]
-
---> B[🔍 Analyzer Agent]
-
-B --> C[📊 Identify Category]
-C --> D[⚠️ Determine Severity Level]
-
-D --> E[🎯 SDG Mapper Agent]
-
-E --> F[🌍 Map Relevant UN SDGs]
-
-F --> G[📚 RAG Knowledge Retriever]
-
-G --> H[📖 Retrieve Sustainability Knowledge]
-
-H --> I[🌱 Impact Assessment Agent]
-
-I --> J[📈 Analyze Environmental & Social Impact]
-
-J --> K[📋 Action Planner Agent]
-
-K --> L[✅ Generate Recommended Actions]
-
-L --> M[🏆 Sustainability Score Engine]
-
-M --> N[📄 PDF Report Generator]
-
-N --> O[🖥️ User Dashboard Output]
-
-O --> P[⬇️ Download Sustainability Report]
-```
+User Enters Sustainability Issue
+            ↓
+Analyzer Agent
+(Category & Severity Detection)
+            ↓
+SDG Mapper Agent
+(UN SDG Identification)
+            ↓
+RAG Knowledge Retriever
+(Fetch Sustainability Knowledge)
+            ↓
+Impact Assessment Agent
+(Environmental Impact Analysis)
+            ↓
+Action Planner Agent
+(Generate Recommendations)
+            ↓
+Sustainability Score Calculation
+            ↓
+PDF Report Generation
+            ↓
+Dashboard Display & Report Download
 
 ## Workflow Explanation
 

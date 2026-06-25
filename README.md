@@ -27,28 +27,6 @@ Whether addressing **waste management**, **water conservation**, **energy effici
 🔹 Produce comprehensive sustainability reports
 
 ---
-User Enters Sustainability Issue
-            ↓
-Analyzer Agent
-(Category & Severity Detection)
-            ↓
-SDG Mapper Agent
-(UN SDG Identification)
-            ↓
-RAG Knowledge Retriever
-(Fetch Sustainability Knowledge)
-            ↓
-Impact Assessment Agent
-(Environmental Impact Analysis)
-            ↓
-Action Planner Agent
-(Generate Recommendations)
-            ↓
-Sustainability Score Calculation
-            ↓
-PDF Report Generation
-            ↓
-Dashboard Display & Report Download
 
 ## Workflow Explanation
 

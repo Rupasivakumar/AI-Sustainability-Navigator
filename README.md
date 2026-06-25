@@ -28,23 +28,6 @@ Whether addressing **waste management**, **water conservation**, **energy effici
 
 ---
 
-### 🌱 **Building Smarter Communities. Driving Sustainable Impact. Creating a Greener Tomorrow.**
-
-
-Users can describe environmental concerns such as waste accumulation, water leakage, air pollution, biodiversity loss, climate risks, or energy inefficiencies, and the system automatically:
-
-✅ Classifies the sustainability issue
-
-✅ Maps it to relevant United Nations Sustainable Development Goals (SDGs)
-
-✅ Assesses environmental and social impact
-
-✅ Retrieves sustainability knowledge using RAG
-
-✅ Generates actionable recommendations
-
-✅ Produces a sustainability-focused report
-
 User Enters Sustainability Issue
                 │
                 ▼

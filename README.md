@@ -27,57 +27,89 @@ Whether addressing **waste management**, **water conservation**, **energy effici
 🔹 Produce comprehensive sustainability reports
 
 ---
-┌─────────────────────────┐
-│ User Input Sustainability│
-│ Issue Description        │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│ Analyzer Agent          │
-│ Category + Severity     │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│ SDG Mapping Agent       │
-│ SDG Goal Identification │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│ RAG Knowledge Retriever │
-│ Sustainability Insights │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│ Impact Assessment Agent │
-│ Environmental Impact    │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│ Action Planning Agent   │
-│ Recommendations         │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│ Sustainability Scoring  │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│ PDF Report Generation   │
-└────────────┬────────────┘
-             │
-             ▼ 
-┌─────────────────────────┐
-│ User Dashboard Output   │
-│ + Download Report       │
-└─────────────────────────┘
+# 🌍 AI Sustainability Navigator – Project Workflow
 
+```mermaid
+flowchart TD
+
+A[👤 User Enters Sustainability Issue]
+
+--> B[🔍 Analyzer Agent]
+
+B --> C[📊 Identify Category]
+C --> D[⚠️ Determine Severity Level]
+
+D --> E[🎯 SDG Mapper Agent]
+
+E --> F[🌍 Map Relevant UN SDGs]
+
+F --> G[📚 RAG Knowledge Retriever]
+
+G --> H[📖 Retrieve Sustainability Knowledge]
+
+H --> I[🌱 Impact Assessment Agent]
+
+I --> J[📈 Analyze Environmental & Social Impact]
+
+J --> K[📋 Action Planner Agent]
+
+K --> L[✅ Generate Recommended Actions]
+
+L --> M[🏆 Sustainability Score Engine]
+
+M --> N[📄 PDF Report Generator]
+
+N --> O[🖥️ User Dashboard Output]
+
+O --> P[⬇️ Download Sustainability Report]
+```
+
+## Workflow Explanation
+
+### Step 1: User Input
+The user describes a sustainability challenge.
+
+**Example:**
+- Plastic waste near a lake
+- Air pollution near a school
+- Water leakage in a community
+- Deforestation near a village
+
+### Step 2: Analyzer Agent
+The Analyzer Agent processes the issue and identifies:
+- Issue Category
+- Severity Level
+
+### Step 3: SDG Mapper Agent
+The issue is mapped to relevant United Nations Sustainable Development Goals (SDGs).
+
+### Step 4: RAG Knowledge Retrieval
+The system retrieves sustainability knowledge from its local knowledge base.
+
+### Step 5: Impact Assessment
+Environmental and social impacts are evaluated.
+
+### Step 6: Action Planning
+The Action Planner generates practical recommendations to address the issue.
+
+### Step 7: Sustainability Scoring
+A sustainability score is calculated based on issue severity and impact.
+
+### Step 8: Report Generation
+A comprehensive sustainability report is generated automatically.
+
+### Step 9: User Output
+The dashboard displays:
+- Category
+- Severity
+- SDG Mapping
+- Knowledge Insights
+- Impact Assessment
+- Action Plan
+- Sustainability Score
+
+### Step 10: PDF Download
+The user can download a complete sustainability report in PDF format.
 ## 📸 Application Screenshots
 
 ### 🏠 Home Dashboard

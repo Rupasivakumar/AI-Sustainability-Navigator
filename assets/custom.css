@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f3faf6;
+}
+
+/* Main Container */
+.gradio-container{
+    max-width:1300px !important;
+    margin:auto;
+    background:transparent;
+}
+
+/* Hero Section */
+.hero{
+    background:linear-gradient(
+        135deg,
+        #064e3b,
+        #0f766e,
+        #14b8a6
+    );
+
+    color:white;
+
+    padding:50px;
+
+    border-radius:30px;
+
+    margin-bottom:25px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.18);
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.1rem;
+    opacity:0.95;
+}
+
+/* Cards */
+
+.gr-box,
+.gr-form,
+.gr-group{
+
+    border-radius:20px !important;
+
+    background:white !important;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.08);
+
+    transition:all 0.3s ease;
+}
+
+.gr-box:hover,
+.gr-form:hover,
+.gr-group:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,0.12);
+}
+
+/* Input Box */
+
+textarea{
+
+    border-radius:15px !important;
+
+    border:2px solid #d1fae5 !important;
+}
+
+/* Buttons */
+
+button{
+
+    border-radius:15px !important;
+
+    font-weight:600 !important;
+
+    font-size:16px !important;
+
+    padding:12px !important;
+
+    background:
+    linear-gradient(
+        135deg,
+        #10b981,
+        #14b8a6
+    ) !important;
+
+    color:white !important;
+
+    border:none !important;
+}
+
+button:hover{
+
+    transform:scale(1.03);
+
+    transition:0.3s;
+}
+
+/* Tabs */
+
+button[role="tab"]{
+
+    border-radius:15px !important;
+
+    margin-right:8px !important;
+
+    font-weight:600 !important;
+}
+
+button[role="tab"][aria-selected="true"]{
+
+    background:
+    linear-gradient(
+        135deg,
+        #10b981,
+        #14b8a6
+    ) !important;
+
+    color:white !important;
+}
+
+/* Labels */
+
+label{
+    font-weight:600 !important;
+}
+
+/* Number Score */
+
+input[type="number"]{
+
+    font-size:24px !important;
+
+    font-weight:700 !important;
+
+    color:#059669 !important;
+}
+
+/* Footer */
+
+footer{
+    visibility:hidden;
+}

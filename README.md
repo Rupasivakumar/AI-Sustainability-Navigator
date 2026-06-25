@@ -72,7 +72,7 @@ Whether addressing **waste management**, **water conservation**, **energy effici
 │ PDF Report Generation   │
 └────────────┬────────────┘
              │
-             ▼
+             ▼ 
 ┌─────────────────────────┐
 │ User Dashboard Output   │
 │ + Download Report       │

@@ -125,16 +125,6 @@ The user can download a complete sustainability report in PDF format.
 ![PDF Report](Screenshots/pdf%20doc%20(3).png)
 
 
-🚀 Live Demo
-
-Add this near the top of README:
-
-## 🚀 Live Application
-
-🔗 Try the Live App:
-
-https://0e04d746141abede36.gradio.live
-
 
 ## 📊 Project Presentation
 

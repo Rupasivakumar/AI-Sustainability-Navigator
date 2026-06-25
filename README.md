@@ -108,6 +108,14 @@ Add this near the top of README:
 https://0e04d746141abede36.gradio.live
 
 
+## 📊 Project Presentation
+
+📑 **View the Complete Project Presentation:**
+
+https://canva.link/fyugez7vn0ual19
+
+
+
 🎯 Project Objectives
 Promote sustainable community development
 Support informed environmental decision-making

@@ -27,7 +27,7 @@ Whether addressing **waste management**, **water conservation**, **energy effici
 🔹 Produce comprehensive sustainability reports
 
 ---
-
+application link:https://6fd94eacc22c2dad51.gradio.live/
 ## Workflow Explanation
 
 ### Step 1: User Input
